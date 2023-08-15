@@ -44,7 +44,7 @@ class TransliterationHandler {
                     }
                     i++
                 } else {
-                    resultString.append(engAlphMap[text[i].toString()])
+                    resultString.append(engAlphMap[text[i].lowercase().toString()])
                 }
                 i++
             }
